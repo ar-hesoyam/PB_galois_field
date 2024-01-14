@@ -17,7 +17,7 @@ class PolynomialBaseFieldElement:
                 vector.insert(0, 0)
             self.vector = vector
             self.degree = self.__get_degree()
-        elif len(vector > 163):
+        elif len(vector) > 163:
             self.vector = [0] * 163
             self.degree = 0
 
